@@ -1,0 +1,69 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ .slide-text h2 {
+    font-size: 32px;
+}  
+.logo img {
+    width: 80%;
+}   
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .logo h2 {
+    font-size: 26px;
+}
+.mainmenu li a {
+    font-size: 18px;
+    margin: 0px 7px;
+}
+.slide-text h2 {
+    font-size: 35px;
+} 
+.logo img {
+    width: 80%;
+}  
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .widget {
+    margin-bottom: 40px;
+}
+.social-icons ul {
+    text-align: left;
+    margin-top: 25px;
+}
+.logo img {
+    width: 175px;
+} 
+.slide-text a.btn {
+    margin-top: 0px;
+    font-size: 10px;
+    padding: 2px 35px;
+}
+.slide-text h4 {
+    font-size: 13px;
+}
+.slide-text h2 {
+    font-size: 14px;
+    margin: 5px;
+} 
+.mainmenu {
+    display: none;
+}
+nav.navbar-default {
+    display: block;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.slide-text a.btn {
+    margin-top: 0px;
+    font-size: 15px;
+}
+.slide-text h4 {
+    font-size: 14px;
+}
+.slide-text h2 {
+    font-size: 20px;
+}
+}
